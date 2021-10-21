@@ -83,7 +83,7 @@ app.post('/games', async (req,res)=>{
     }
 });
 
-// PEOPLE DELETE ROUTE
+/// PEOPLE DELETE ROUTE
 app.delete('/games/:id', async (req, res)=>{
     try{
         // send all people
